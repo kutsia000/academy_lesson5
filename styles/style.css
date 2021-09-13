@@ -6,16 +6,16 @@
     width: 100%;
     top: 0;
     left: 0;
+    padding: 18px 0 17px 20px;
 }
 
 .navigation-logo {
     display: inline-block;
-    padding: 18px 0 17px 20px;
 }
 
 .navigation {
     display: inline-block;
-    margin: 20px 0 18px 92px;
+    margin-left: 92px;
 }
 
 .navigation ul li{
@@ -27,6 +27,13 @@
 
 .navigation ul li a {
     height: 12px;
+}
+
+.avatar-round {
+    display: inline-block;
+    position:absolute;
+    margin-top: -8px;
+    margin-left: 18px;
 }
 
 /* footer styles */
