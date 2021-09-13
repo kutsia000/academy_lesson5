@@ -7,6 +7,7 @@
     top: 0;
     left: 0;
     padding: 18px 0 17px 20px;
+    z-index: 999;
 }
 
 .navigation-logo {
@@ -40,37 +41,125 @@
 .footer {
     height: 200px;
     background-color: #A6ADB4;
+    margin-top:37px;
+    position: relative;
+    bottom: 0;
 }
 
 /* body section styles */
-.section-continer {
+body {
+    background-color: #F6F8F9;
+}
+
+.container {
+    margin-top: 75px; /* 50px + 25px ჰედერი + საწყისი დაშორება ჰედერსა და კონტენტს შორის*/
+}
+
+.section-container {
     width: 1160px;
     height: 410px;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #F6F8F9;
 }
 
-.card {
+.section-title {
+    width: 100%;
+    height: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    display: inline-block;
+}
+
+.left-card {
     width: 360px;
     height: 350px;
     position: relative;
+    display: inline-block;
+    /* border: 1px solid; */
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
 }
 
+.middle-card {
+    width: 360px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
+}
+
+.right-card {
+    width: 360px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+
+    margin-top: 40px;
+    background-color: #FFFFFF;
+}
+
+/* .card {
+    width: 360px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 40px;
+    margin-right: 40px;
+} */
+
 .card-image {
+    width: 360px;
     height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .card-image-text {
     position: absolute;
     width: 280px;
     height: 16px;
-    margin: 0 auto;
+    margin-left: 40px;
+    top:28px;
+    font-size: 16px;
+    color: #FFFFFF;
+    z-index: 1;
+    font-weight: bold;
 }
 
 .card-text-block {
     width: 280px;
     height: 64px;
     position: absolute;
+    bottom: 0;
+    left: 0;
     margin-bottom: 40px;
     margin-left:40px;
+    font-size: 13px;
+    color: #A6ADB4;
+}
+
+.text-block-text {
+    height: 38px;
+}
+
+.text-block-time-container {
+    height: 16px;
+    margin-top:10px;
+}
+
+.text-block-clock {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-block-time {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
