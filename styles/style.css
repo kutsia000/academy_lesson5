@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+* {
+    font-family: 'Barlow Condensed', sans-serif;;
+}
+
 /* navigation styles */
 .header-wrapper {
     height: 50px;
@@ -238,6 +244,17 @@ body {
     font-weight: bold;
 }
 
+.photo-text-container {
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    font-size: 16px;
+    top: 194px;
+    left: 308px;
+    z-index: 4;
+    color: #FFFFFF;
+}
+
 .card-text-block {
     width: 280px;
     height: 64px;
@@ -283,6 +300,7 @@ body {
     vertical-align: top;
     width: 760px;
     height: 900px;
+    position: relative;
     /* border: 1px solid; */
 }
 
